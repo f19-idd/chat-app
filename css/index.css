@@ -32,6 +32,10 @@ h1 {
     --animations: 0.3s;
 }
 
+.messages {
+    
+}
+
 .branding {
     background-color: var(--col-accent2);
     color: var(--col-accent2-fg);

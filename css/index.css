@@ -23,7 +23,7 @@ h1 {
     --col-accent2-fg: #000000;
     --col-accent3:  mediumslateblue;
     --col-accent3-fg: #ffffff;
-    --col-action: firebrick;
+    --col-action: rgb(68, 6, 6);
     --col-action-fg: #ffffff;
     --col-error: tomato;
     --col-error-fg: #000000;
@@ -32,8 +32,40 @@ h1 {
     --animations: 0.3s;
 }
 
-.messages {
-    
+.message {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.from-me {
+  background-color: cyan;
+  align-items: flex-end;
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.from-them {
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-bottom: 5px;
+  display: inline-block;
 }
 
 .branding {

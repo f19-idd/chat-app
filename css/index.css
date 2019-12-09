@@ -190,8 +190,11 @@ left: 0;
    .row{
        padding-top:5px;
    }
+
+}
+
 footer{ 
-  padding-top:950px ;
+  padding-top:650px ;
 
 }
 
@@ -217,7 +220,7 @@ footer{
     .toggle-others span {
       writing-mode: vertical-rl;
     } 
-}
+
 
 @media screen and (min-width: 60em) {
     .others {

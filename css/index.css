@@ -126,8 +126,9 @@ left: 0;
 @media screen and (min-width: 60em) {
     .others {
       width: 30em;
+      transform: translateX(-30em);
     }
-    .conversation {
+    .others.open ~ .conversation {
       margin-left: 30em;
     }
-}
+  }

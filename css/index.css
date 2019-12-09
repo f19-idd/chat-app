@@ -1,0 +1,73 @@
+body {
+    background-color: var(--col-bg);
+    color: var(--col-bg-fg);
+    font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    line-height: 1.25;
+    margin: 0.25em 0;
+}
+
+h1 {
+    font-size: 1.25em;
+}
+
+:root {
+    --col-bg: #ffffff;
+    --col-bg-fg: #222222;
+    --col-accent1:  palevioletred;
+    --col-accent1-fg: #000000;
+    --col-accent2:  plum;
+    --col-accent2-fg: #000000;
+    --col-accent3:  mediumslateblue;
+    --col-accent3-fg: #ffffff;
+    --col-action: firebrick;
+    --col-action-fg: #ffffff;
+    --col-error: tomato;
+    --col-error-fg: #000000;
+    --font-body: serif;
+    --font-heading: sans-serif;
+    --animations: 0.3s;
+}
+
+.branding {
+    background-color: var(--col-accent2);
+    color: var(--col-accent2-fg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.others {
+    background-color: var(--col-accent1);
+    color: var(--col-accent1-fg);
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    padding: 0 1em;
+    padding-top: 2.1875em;
+}
+
+.others .panel {
+  overflow-y: scroll;
+  opacity: 0;
+  transition: opacity var(--animations);
+}
+
+.others.open {
+left: 0;
+}
+
+.others.open .panel {
+  opacity: 1;
+}
+

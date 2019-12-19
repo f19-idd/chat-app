@@ -1,5 +1,13 @@
 # Chat Interface
 
+## Team Members
+
+- Ajeng Radianti (radianti): 101006398
+   - Completed Message Block custom styling and html
+- Akheem Porter (boblass)
+   - Completed Input form custom styling and html
+- Christopher Rynkun (ChristopherRynkun22)
+   - Completed User card html only, no custom styling
 
 ## Steps to complete the assignment
 
